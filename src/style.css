@@ -1,0 +1,52 @@
+body {
+    background: #54bef5;
+}
+.white-keys kbd {
+    display: inline-block;
+    background: white;
+    color: black;
+    height: 200px;
+    width: 70px;
+    text-align: center;
+    border: #000000 solid;
+    margin: 0 -3px;
+    line-height: 350px;
+    font-size: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+.black-keys kbd {
+    position: absolute;
+    top: 0;
+    color: white;
+    display: inline-block;
+    background: black;
+    height: 150px;
+    width: 50px;
+    text-align: center;
+    z-index: 1;
+    vertical-align: middle;
+    line-height: 250px;
+    font-size: 15px;
+    font-family: 'Abril Fatface', cursive;
+}
+.key-w {
+    left: 10%;
+}
+.key-e {
+    left: 24%;
+}
+.key-t {
+    right: 39%;
+}
+.key-y {
+    right: 24%;
+}
+.key-u {
+    right: 10%;
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
